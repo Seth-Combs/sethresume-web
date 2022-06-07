@@ -1,0 +1,415 @@
+/*CSS rest*/
+
+html {
+    max-width: 100%;
+    max-height: 100%;
+    
+    
+}
+
+.specific-pages{
+
+overflow-x: hidden;
+overflow-y: hidden ;
+
+}
+
+
+
+
+
+:root{ --blue : rgb(14, 27, 44);
+
+        --black: #000;
+
+        --red: rgb(156, 4, 4);
+
+        --white: #fff;
+
+        --grey:rgb(215, 213, 213);
+
+        --drkgrey:rgb(156, 156, 156);
+
+        --yellow:rgb(245, 241, 204);
+
+        --midgrey:rgb(53, 52, 52);
+
+        --green:rgb(111, 158, 160);
+        
+
+}
+
+
+
+
+
+*{ margin: 0;
+
+    padding: 0;
+
+    
+
+    font-family:baskerville;
+}
+
+
+img{max-width: 100%;
+    
+    max-height: 100%;
+
+}
+
+.top-container{background-size: cover;
+
+                background-position: center;
+
+                
+
+                height: 600px;
+
+                position: relative;
+
+                text-align: center;
+
+                height: 100px;
+}
+
+.top-container h1{
+
+    color: var(--grey);
+
+    
+}
+
+.top-container p{
+    color: var(--grey)
+}
+
+
+header{ background-color: transparent;
+
+        padding: 20px 35px;
+
+        background-size: cover;
+
+        background-position: center;
+
+        height: 60px;
+
+        
+
+        
+
+                
+
+}
+
+header h1  { font-size: 36px;
+
+            margin: 0;
+
+            display: inline;
+
+            text-decoration: none;
+
+            font-weight: lighter;
+
+}
+
+header  a {text-decoration: none;
+
+            color: var(--red);
+
+            font-weight: lighter;
+}
+
+
+
+
+
+header nav{float: right;
+
+            margin: 7px 0;
+
+}
+
+
+header nav ul li {display: inline;
+
+}
+
+
+header nav ul li a{margin: 0 30px;
+
+                    font-size: 22px;
+
+}
+
+
+/* Style for rules for navigation area */
+
+nav {float: right;
+
+     margin: 5em 3em 0 0;
+
+     width: 70%;
+
+}
+
+nav ul{
+
+        margin: 0;
+
+        text-align: right;
+}
+
+
+nav li{display: inline-block;
+
+        font-size: 1.5em;
+
+}
+
+
+
+
+
+
+section{padding: 60px;
+
+}
+
+
+
+.section-title{font-size: 55px;
+
+                color: var(--blue);
+
+                margin-bottom: 35px;
+
+                padding: 0 100px 20px 100px;
+
+                display: inline-block;
+
+                border-bottom: 3px solid;
+}
+
+#intro{
+
+    background-color: var(--white) ;
+
+    height: 40px;
+
+    padding: 10px 25px 30px;
+
+    color: var(--red);
+
+}
+
+#intro p{ font-family: cursive ;
+
+
+
+}
+
+
+
+
+#about{  background-size: cover;
+
+        background-color: var(--white);
+
+        height: 600px;
+
+        position: relative;
+
+        background-size: cover;
+
+        background-position: center;
+
+        text-align: center;
+
+        padding: 40px 35px;
+       
+         width: 100%;
+
+}
+
+#about h2{ color: var(--black);
+
+    
+}
+
+#about p{color: var(--red);
+
+    
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+#about-headshot{ height: 285px;
+
+                 width: 285px;
+
+                 float: right;
+
+                 padding: 95px 145px;
+
+                 bottom: 400px;
+
+                 right: 50px;
+
+                 
+
+   
+}
+
+
+#skills { 
+
+         background-image: url(../images/DSCF7398-Pano-web3.jpg);
+
+         
+
+         height: 600px;
+
+         position: relative;
+
+         background-size: cover;
+
+         background-position:right;
+
+         text-align: center;
+
+         
+       
+         width: 100%;
+
+         color: var(--white);
+}
+
+
+#skills a { color: var(--red);
+
+            text-decoration:underline;
+
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+
+}
+
+#skills h2{ color: var(--white);
+
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+
+}
+
+#skills h4{ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+
+}
+
+
+
+
+
+#contact {background-size: cover;
+
+         background-position: center;
+
+          background-image: url(../images/DSCF8233-Edit-hero-web.png);
+
+          height: 600px;
+
+          position: relative;
+
+
+}
+
+#contact h2{color: var(--midgrey);
+
+
+
+}
+
+
+  
+
+
+
+#headshot {height: 375px;
+
+           width: 375px;
+
+           float: right;
+
+           padding: 65px 10px;
+
+           
+
+           margin-left: 100px;
+
+           
+}
+
+
+#contact-form{  border: solid 2px var(--black);
+
+                padding: 20px;
+
+                width: 500px;
+
+                color: var(--white);
+
+                position: relative;
+
+                left: 80px;
+
+                top: 20px;
+
+                bottom: 120px;
+
+                background-color: transparent;
+}
+
+
+footer{text-align: center;
+
+       background-color: var(--white);
+
+       padding: 40px 35px;
+       
+       width: 100%;
+}
+
+footer a {color: var(--red);
+
+          text-decoration: none;
+}
+
+footer p {color: var(--drkgrey);
+
+         text-decoration: none;
+
+         
+
+
+}
+
+
+
+
+
+
