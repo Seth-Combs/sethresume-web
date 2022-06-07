@@ -18,7 +18,9 @@ overflow-y: hidden ;
 
 
 
-:root{ --blue : rgb(14, 27, 44);
+:root{ --drkblue : rgb(14, 27, 44);
+
+        --blue:rgb(227, 242, 248);
 
         --black: #000;
 
@@ -30,7 +32,7 @@ overflow-y: hidden ;
 
         --drkgrey:rgb(156, 156, 156);
 
-        --yellow:rgb(245, 241, 204);
+        --yellow:rgb(255, 255, 239);
 
         --midgrey:rgb(53, 52, 52);
 
@@ -86,7 +88,7 @@ img{max-width: 100%;
 }
 
 
-header{ background-color: transparent;
+header{ background-color: var(--yellow);
 
         padding: 20px 35px;
 
@@ -387,7 +389,7 @@ section{padding: 60px;
 
 footer{text-align: center;
 
-       background-color: var(--white);
+       background-color: var(--yellow);
 
        padding: 40px 35px;
        
